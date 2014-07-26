@@ -2,7 +2,6 @@ FROM  orchardup/python:2.7
 MAINTAINER  Marc Abramowitz <marc@marc-abramowitz.com> (@msabramo)
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq \
-    emacs \
     freetds-bin \
     freetds-common \
     freetds-dev \
